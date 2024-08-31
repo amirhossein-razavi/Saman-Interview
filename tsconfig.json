@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "store/*": ["./store/*"],
+      "entities/*": ["./entities/*"],
+      "services/*": ["./services/*"],
+      "components/*": ["./components/*"],
+      "pages/*": ["./pages/*"],
+      "useCases/*": ["./useCases/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
